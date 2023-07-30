@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead, tfoot {
+            background-color: gray;
+            color: rgb(0, 0, 0);
+        }
+
+        td.num {
+            background-color: rgba(121, 117, 117, 0.562);
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!-- 
+        ANATOMIA PARA TABELAS GRANDE
+        TABLE
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD TH
+            TFOOT
+            TR, TD, TH
+    -->
+    <table>
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th>População</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Brasília</td>
+                <td class="num">2 817 068</td>
+            </tr>
+            <tr>
+                <td>Fortaleza</td>
+                <td class="num">2 428 678</td>
+            </tr>
+            <tr>
+                <td>Salvador</td>
+                <td class="num">2 418 005</td>
+            </tr>
+            <tr>
+                <td>Belo Horizonte</td>
+                <td class="num">2 315 560</td>
+            </tr>
+            <tr>
+                <td>Manaus</td>
+                <td class="num">2 063 547</td>
+            </tr>
+            <tr>
+                <td>Curitiba</td>
+                <td class="num">1 773 733</td>
+            </tr>
+            <tr>
+                <td>Recife</td>
+                <td class="num">1 488 920</td>
+            </tr>
+            <tr>
+                <td>Goiânia</td>
+                <td class="num">1 437 237</td>
+            </tr>
+            <tr>
+                <td>Porto Alegre</td>
+                <td class="num">1 332 570</td>
+            </tr>
+            <tr>
+                <td>Belém</td>
+                <td class="num">1 303 309</td>
+            </tr>
+            <tr>
+                <td>Guarulhos</td>
+                <td class="num">1 291 784</td>
+            </tr>
+            <tr>
+                <td>Campinas</td>
+                <td class="num">1 138 309</td>
+            </tr>
+            <tr>
+                <td>São Luís</td>
+                <td class="num">1 037 775</td>
+            </tr>
+            <tr>
+                <td>Maceió</td>
+                <td class="num">957 916</td>
+            </tr>
+            <tr>
+                <td>Campo Grande</td>
+                <td class="num">897 938</td>
+            </tr>
+            <tr>
+                <td>São Gonçalo</td>
+                <td class="num">896 744</td>
+            </tr>
+            <tr>
+                <td>Teresina</td>
+                <td class="num">866 300</td>
+            </tr>
+            <tr>
+                <td>João Pessoa</td>
+                <td class="num">833 932</td>
+            </tr>
+            <tr>
+                <td>São Bernardo do Campo</td>
+                <td class="num">810 729</td>
+            </tr>
+            <tr>
+                <td>Duque de Caxias</td>
+                <td class="num">808 252</td>
+            </tr>
+            <tr>
+                <td>Nova Iguaçu</td>
+                <td class="num">785 882</td>
+            </tr>
+            <tr>
+                <td>Natal</td>
+                <td class="num">751 300</td>
+            </tr>
+            <tr>
+                <td>Santo André</td>
+                <td class="num">748 919</td>
+            </tr>
+            <tr>
+                <td>Osasco</td>
+                <td class="num">743 432</td>
+            </tr>
+            <tr>
+                <td>Sorocaba</td>
+                <td class="num">723 574</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total de Hanitantes</td>
+                <td class="num"><strong>210.147.125</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

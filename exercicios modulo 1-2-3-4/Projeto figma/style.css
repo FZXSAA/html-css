@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+@import url('');
+
+@import url('');
+
+* {
+    margin: 0px;
+    margin: 0px;
+}
+header {
+    padding: 20px;
+    margin: auto;
+}
+header > hr {
+    background-color: white;
+}
+header > a {
+    
+}
+.more {
+    margin-top: 4px;
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+body {
+    background-color: #dfe1e688;
+}
+
+.container1 {
+    display: flex;
+}
+
+div > h2 {
+    font-size: 70px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-right: 90px;
+}
+.box1 { 
+      padding: 10px;
+      font-size: 20px;  
+      margin-left: 330px;
+      
+}
+.button{
+    width: 330px;
+    height: 40px;
+    color: rgba(255, 255, 255, 0);
+    margin-right: -160px;
+    padding: 10px;
+    border-radius: 122px;
+    border-right: 120px solid white;
+    margin-left: -10px;
+}
+.button1 {
+    border-radius: 97.6px;
+    background: #000000;
+    color: white;
+    padding: 10px;
+}
+
+.brands {
+    line-height: 6em;
+    
+}
+
+.reviews {
+    line-height: 2em;
+}
+
+.box2 { 
+    margin-left: 99px; 
+    padding: 16px;
+    
+}
+.box3 {
+    margin-right: 300px;
+    margin-left: 300px;
+}
+.container {
+    display: flex;
+  
+}
+
+.rodape {
+    background-color:#FDFDFD;
+}
